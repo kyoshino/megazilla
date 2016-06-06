@@ -1,0 +1,132 @@
+#mgzl-tile-firefox-testpilot a {
+  background: #1B428A url(../images/tiles/firefox-testpilot.png) no-repeat center;
+  background-size: 85%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-developers-mdn a {
+  background: #FFF url(../images/tiles/mdn.png) no-repeat center;
+  background-size: contain;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-developers-viewsourceconf a {
+  background: #FFF url(../images/tiles/viewsourceconf.jpg) no-repeat center;
+  background-size: cover;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-developers-devedition a {
+  background: #004889 url(../images/tiles/devedition.png) no-repeat center;
+  background-size: 80%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-developers-aframe a {
+  background: #FFF url(../images/tiles/aframe.png) no-repeat center;
+  background-size: cover;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-developers-letsencrypt a {
+  background: #FFF url(../images/tiles/letsencrypt.svg) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-developers-rust a {
+  background: #FFF url(../images/tiles/rust.svg) no-repeat center left;
+  background-size: contain;
+  text-indent: 64px;
+  justify-content: left !important;
+}
+
+#mgzl-tile-innovations-science a {
+  background: #FFF url(../images/tiles/mozillascience.svg) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-innovations-vr a {
+  background: #292C38 url(../images/tiles/mozvr.png) no-repeat center;
+  background-size: contain;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-innovations-sensorweb a {
+  background: #5cc7b8 url(../images/tiles/sensorweb.png) no-repeat center;
+  background-size: 85%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-innovations-openbadges a {
+  background: #FFF url(../images/tiles/openbadges.png) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-innovations-opennews a {
+  background: #FFF url(../images/tiles/opennews.png) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-innovations-coralproject a {
+  background: #FFF url(../images/tiles/coralproject.png) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-learn-advocacy a {
+  background: #023C78 url(../images/tiles/advocacy.svg) no-repeat center;
+  background-size: 85%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-learn-festival a {
+  background: #011458 url(../images/tiles/mozillafestival.svg) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-learn-webmaker a {
+  background: #438FF0 url(../images/tiles/webmaker.png) no-repeat center;
+  background-size: 80%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-learn-hive a {
+  background: #FCA830 url(../images/tiles/hive.png) no-repeat center;
+  background-size: 60%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-learn-gigabit a {
+  background: #FFF url(../images/tiles/gigabit.png) no-repeat center;
+  background-size: contain;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-participate-friends a {
+  background: #0051A1 url(../images/tiles/firefox-friends.svg) no-repeat center;
+  background-size: 85%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-participate-students a {
+  background: #CCDFEE url(../images/tiles/studentambassadors.png) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-participate-mozillians a {
+  background: #FFF url(../images/tiles/mozillians.png) no-repeat center;
+  background-size: 90%;
+  text-indent: -99999px;
+}
+
+#mgzl-tile-participate-air a {
+  background: #060606 url(../images/tiles/air.png) no-repeat center;
+  background-size: 85%;
+  text-indent: -99999px;
+}

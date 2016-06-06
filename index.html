@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/demo.css">
+    <link rel="stylesheet" href="styles/megazilla-core.css">
+    <link rel="stylesheet" href="styles/megazilla-tiles.css">
+    <title>Megazilla</title>
+  </head>
+  <body>
+    <main>
+      <h1>Megazilla: A mega menu experiment for Mozilla properties</h1>
+      <p><a href="https://github.com/kyoshino/megazilla">What's this?</a></p>
+      <div id="mgzl-container">
+        <nav id="mgzl">
+          <header role="toolbar">
+            <div class="inner">
+              <h1>Mozilla</h1>
+              <ul role="tablist">
+                <li role="tab" id="mgzl-tab-firefox" aria-selected="false" aria-controls="mgzl-tabpanel-firefox">Firefox</li>
+                <li role="tab" id="mgzl-tab-developers" aria-selected="false" aria-controls="mgzl-tabpanel-developers">Developers</li>
+                <li role="tab" id="mgzl-tab-innovations" aria-selected="false" aria-controls="mgzl-tabpanel-innovations">Innovations</li>
+                <li role="tab" id="mgzl-tab-learn" aria-selected="false" aria-controls="mgzl-tabpanel-learn">Learn</li>
+                <li role="tab" id="mgzl-tab-participate" aria-selected="false" aria-controls="mgzl-tabpanel-participate">Participate</li>
+                <li role="tab" id="mgzl-tab-about" aria-selected="false" aria-controls="mgzl-tabpanel-about">About</li>
+              </ul>
+              <!-- <div role="search">Search</div> -->
+            </div>
+          </header>
+          <div role="group" class="tabpanel-wrapper" aria-hidden="true">
+            <section role="tabpanel" id="mgzl-tabpanel-firefox" aria-hidden="true">
+              <h2>Firefox</h2>
+              <div class="inner">
+                <div class="tiles">
+                  <ul class="primary">
+                    <li id="mgzl-tile-firefox-desktop"><a href="https://www.mozilla.org/firefox/desktop/">Firefox for desktop</a></li>
+                    <li id="mgzl-tile-firefox-ios"><a href="https://www.mozilla.org/firefox/ios/">Firefox for iOS</a></li>
+                    <li id="mgzl-tile-firefox-android"><a href="https://www.mozilla.org/firefox/android/">Firefox for Android</a></li>
+                  </ul>
+                  <ul class="secondary">
+                    <li id="mgzl-tile-firefox-hello"><a href="https://www.mozilla.org/firefox/hello/">Firefox Hello</a></li>
+                    <li id="mgzl-tile-firefox-sync"><a href="https://www.mozilla.org/firefox/sync/">Sync</a></li>
+                    <li id="mgzl-tile-firefox-private-browsing"><a href="https://www.mozilla.org/firefox/private-browsing/">Private Browsing</a></li>
+                    <li id="mgzl-tile-firefox-addons"><a href="https://addons.mozilla.org/firefox/">Add-ons</a></li>
+                    <li id="mgzl-tile-firefox-support"><a href="https://support.mozilla.org/">Support</a></li>
+                    <li id="mgzl-tile-firefox-testpilot"><a href="https://testpilot.firefox.com/">Test Pilot</a></li>
+                  </ul>
+                </div>
+                <div class="links">
+                  <h3>More Products</h3>
+                  <ul>
+                    <li><a href="https://www.mozilla.org/firefox/channel/">Firefox Beta &amp; Developer Edition</a></li>
+                    <li><a href="https://www.mozilla.org/firefox/organizations/">Extended Support Release</a></li>
+                    <li><a href="https://itunes.apple.com/app/id1055677337">Focus by Firefox</a></li>
+                  </ul>
+                  <h3>More Features</h3>
+                  <ul>
+                    <li><a href="https://www.mozilla.org/firefox/dnt/">Do Not Track</a></li>
+                    <li><a href="https://www.mozilla.org/firefox/interest-dashboard/">Interest Dashboard</a></li>
+                    <li><a href="https://www.mozilla.org/firefox/geolocation/">Location-Aware Browsing</a></li>
+                    <li><a href="https://www.mozilla.org/firefox/pocket/">Pocket for Firefox</a></li>
+                    <li><a href="https://activations.cdn.mozilla.net/">Services for Firefox</a></li>
+                  </ul>
+                  <h3>More Links</h3>
+                  <ul>
+                    <li><a href="https://input.mozilla.org/feedback">Feedback</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section role="tabpanel" id="mgzl-tabpanel-developers" aria-hidden="true">
+              <h2>Developers</h2>
+              <div class="inner">
+                <div class="tiles">
+                  <ul class="primary">
+                    <li id="mgzl-tile-developers-mdn"><a href="https://developer.mozilla.org/">Developer Network</a></li>
+                    <li id="mgzl-tile-developers-viewsourceconf"><a href="https://viewsourceconf.org/">View Source Conference</a></li>
+                    <li id="mgzl-tile-developers-devedition"><a href="https://www.mozilla.org/firefox/developer/">Firefox Developer Edition</a></li>
+                  </ul>
+                  <ul class="secondary">
+                    <li id="mgzl-tile-developers-hacks"><a href="https://hacks.mozilla.org/">Hacks Blog</a></li>
+                    <li id="mgzl-tile-developers-games"><a href="https://games.mozilla.org/">Games</a></li>
+                    <li id="mgzl-tile-developers-aframe"><a href="https://aframe.io/">A-Frame</a></li>
+                    <li id="mgzl-tile-developers-letsencrypt"><a href="https://letsencrypt.org/">Let's Encrypt</a></li>
+                    <li id="mgzl-tile-developers-addons"><a href="https://addons.mozilla.org/developers/">Add-on Developer Hub</a></li>
+                    <li id="mgzl-tile-developers-rust"><a href="https://www.rust-lang.org/">Rust Language</a></li>
+                  </ul>
+                </div>
+                <div class="links">
+                  <h3>More Developer Resources</h3>
+                  <ul>
+                    <li><a href="http://x-tag.github.io/">X-Tag</a></li>
+                    <li><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">SSL Configuration Generator</a></li>
+                    <li><a href="https://platform-status.mozilla.org/">Firefox Platform Status</a></li>
+                    <li><a href="http://devtoolschallenger.com/">DevTools Challenger</a></li>
+                    <li><a href="http://browserquest.mozilla.org/">BrowserQuest</a></li>
+                    <li><a href="https://marketplace.firefox.com/developers/">Firefox Marketplace Developer Hub</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section role="tabpanel" id="mgzl-tabpanel-innovations" aria-hidden="true">
+              <h2>Innovations</h2>
+              <div class="inner">
+                <div class="tiles">
+                  <ul class="primary">
+                    <li id="mgzl-tile-innovations-connected"><a href="https://connected.mozilla.org/">Connected Devices</a></li>
+                    <li id="mgzl-tile-innovations-science"><a href="https://science.mozilla.org/">Science Lab</a></li>
+                    <li id="mgzl-tile-innovations-vr"><a href="https://mozvr.com/">VR</a></li>
+                  </ul>
+                  <ul class="secondary">
+                    <li id="mgzl-tile-innovations-sensorweb"><a href="http://sensorweb.io/">Project SensorWeb</a></li>
+                    <li id="mgzl-tile-innovations-fxos"><a href="https://www.mozilla.org/firefox/os/">Firefox OS</a></li>
+                    <li id="mgzl-tile-innovations-servo"><a href="https://servo.org/">Servo</a></li>
+                    <li id="mgzl-tile-innovations-openbadges"><a href="http://openbadges.org/">Open Badges</a></li>
+                    <li id="mgzl-tile-innovations-opennews"><a href="https://www.opennews.org/">OpenNews</a></li>
+                    <li id="mgzl-tile-innovations-coralproject"><a href="https://coralproject.net/">Coral Project</a></li>
+                  </ul>
+                </div>
+                <div class="links">
+                  <h3>More Links</h3>
+                  <ul>
+                    <li><a href="https://www.mozilla.org/lightbeam/">Lightbeam</a></li>
+                    <li><a href="https://togetherjs.com/">TogetherJS</a></li>
+                    <li><a href="http://popcornjs.org/">PopcornJS</a></li>
+                    <li><a href="https://backpack.openbadges.org/">Backpack</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section role="tabpanel" id="mgzl-tabpanel-learn" aria-hidden="true">
+              <h2>Learn</h2>
+              <div class="inner">
+                <div class="tiles">
+                  <ul class="primary">
+                    <li id="mgzl-tile-learn-learning"><a href="https://learning.mozilla.org/">Learning Network</a></li>
+                    <li id="mgzl-tile-learn-advocacy"><a href="https://advocacy.mozilla.org/">Advocacy</a></li>
+                    <li id="mgzl-tile-learn-festival"><a href="https://www.mozillafestival.org/">MozFest</a></li>
+                  </ul>
+                  <ul class="secondary">
+                    <li id="mgzl-tile-learn-webmaker"><a href="https://webmaker.org/">Webmaker</a></li>
+                    <li id="mgzl-tile-learn-hive"><a href="https://hivelearningnetworks.org/">Hive Learning Networks</a></li>
+                    <li id="mgzl-tile-learn-gigabit"><a href="https://www.mozilla.org/gigabit/">Gigabit Community Fund</a></li>
+                    <li id="mgzl-tile-learn-smarton"><a href="https://www.mozilla.org/teach/smarton/">SmartOn</a></li>
+                    <li id="mgzl-tile-learn-shapeoftheweb"><a href="https://shapeoftheweb.mozilla.org/">Shape of the Web</a></li>
+                    <li id="mgzl-tile-learn-webwewant"><a href="https://webwewant.mozilla.org/">Web We Want</a></li>
+                  </ul>
+                </div>
+                <div class="links">
+                  <h3>More Tools</h3>
+                  <ul>
+                    <li><a href="https://thimble.mozilla.org/">Thimble</a></li>
+                    <li><a href="https://goggles.mozilla.org/">X-Ray Goggles</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section role="tabpanel" id="mgzl-tabpanel-participate" aria-hidden="true">
+              <h2>Participate</h2>
+              <div class="inner">
+                <div class="tiles">
+                  <ul class="primary">
+                    <li id="mgzl-tile-participate-contribute"><a href="https://www.mozilla.org/contribute/">Volunteer Opportunities</a></li>
+                    <li id="mgzl-tile-participate-oneanddone"><a href="https://oneanddone.mozilla.org/">One and Done</a></li>
+                    <li id="mgzl-tile-participate-friends"><a href="https://www.mozilla.org/contribute/friends/">Firefox Friends</a></li>
+                  </ul>
+                  <ul class="secondary">
+                    <li id="mgzl-tile-participate-reps"><a href="https://reps.mozilla.org/">Mozilla Reps</a></li>
+                    <li id="mgzl-tile-participate-students"><a href="https://www.mozilla.org/contribute/studentambassadors/">Student Ambassadors</a></li>
+                    <li id="mgzl-tile-participate-l10n"><a href="https://l10n.mozilla.org/">Localization</a></li>
+                    <li id="mgzl-tile-participate-mozillians"><a href="https://mozillians.org/">Mozillians</a></li>
+                    <li id="mgzl-tile-participate-air"><a href="https://air.mozilla.org/">Air Mozilla</a></li>
+                    <li id="mgzl-tile-about-careers"><a href="https://careers.mozilla.org/">Jobs</a></li>
+                  </ul>
+                </div>
+                <div class="links">
+                  <h3>Communication Channels</h3>
+                  <ul>
+                    <li><a href="https://discourse.mozilla-community.org/">Discourse</a></li>
+                    <li><a href="https://www.mozilla.org/about/forums/">Forums</a></li>
+                    <li><a href="https://wiki.mozilla.org/IRC">IRC</a></li>
+                  </ul>
+                  <h3>More Ways to Contribute</h3>
+                  <ul>
+                    <li><a href="https://quality.mozilla.org/">Quality Assurance</a></li>
+                    <li><a href="http://mozilla.github.io/webdev/">Webdev</a></li>
+                    <li><a href="https://webcompat.com/">webcompat.com</a></li>
+                    <li><a href="https://donate.mozilla.org/">Donate</a></li>
+                  </ul>
+                  <h3>Developer Links</h3>
+                  <ul>
+                    <li><a href="https://wiki.mozilla.org/">MozillaWiki</a></li>
+                    <li><a href="https://bugzilla.mozilla.org/">Bugzilla</a></li>
+                    <li><a href="https://crash-stats.mozilla.com/">Crash Reports</a></li>
+                    <li><a href="https://dxr.mozilla.org/">DXR</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section role="tabpanel" id="mgzl-tabpanel-about" aria-hidden="true">
+              <h2>About</h2>
+              <div class="inner">
+                <div class="tiles">
+                  <ul class="primary">
+                    <li id="mgzl-tile-about-about"><a href="https://www.mozilla.org/about/">Get to know Mozilla</a></li>
+                    <li id="mgzl-tile-about-newsletter"><a href="https://www.mozilla.org/newsletter/">Newsletter</a></li>
+                    <li id="mgzl-tile-about-donate"><a href="https://donate.mozilla.org/">Donate</a></li>
+                  </ul>
+                  <ul class="secondary">
+                    <li id="mgzl-tile-about-manifesto"><a href="https://www.mozilla.org/about/manifesto/">Manifesto</a></li>
+                    <li id="mgzl-tile-about-careers"><a href="https://careers.mozilla.org/">Jobs</a></li>
+                    <li id="mgzl-tile-about-partnerships"><a href="https://www.mozilla.org/about/partnerships/">Partnerships</a></li>
+                    <li id="mgzl-tile-about-blog"><a href="https://blog.mozilla.org/">Blog</a></li>
+                    <li id="mgzl-tile-about-contact"><a href="https://www.mozilla.org/contact/">Contact</a></li>
+                    <li id="mgzl-tile-about-privacy"><a href="https://www.mozilla.org/privacy/">Privacy</a></li>
+                  </ul>
+                </div>
+                <div class="links">
+                  <h3>Community Projects</h3>
+                  <ul>
+                    <li><a href="https://www.mozilla.org/thunderbird/">Thunderbird</a></li>
+                    <li><a href="https://www.mozilla.org/projects/calendar/">Lightning Calendar</a></li>
+                    <li><a href="http://www.seamonkey-project.org/">SeaMonkey</a></li>
+                    <li><a href="https://www.bugzilla.org/">Bugzilla</a></li>
+                  </ul>
+                  <h3>More Links</h3>
+                  <ul>
+                    <li id="mgzl-tile-about-foundation"><a href="https://www.mozilla.org/foundation/">Foundation</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </nav>
+      </div>
+    </main>
+    <script src="scripts/megazilla.js"></script>
+  </body>
+</html>
